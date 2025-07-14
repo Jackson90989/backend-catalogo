@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                   // Versão do JavaScript que será gerada
+    "module": "commonjs",              // Sistema de módulos usado (CommonJS para Node)
+    "rootDir": "./src",                // Pasta raiz do código fonte TS
+    "outDir": "./dist",                // Pasta onde os arquivos JS compilados irão
+    "strict": true,                    // Ativa verificações rigorosas
+    "esModuleInterop": true,           // Para importar pacotes comuns JS com compatibilidade
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]                   // Quais arquivos incluir no build
+}
